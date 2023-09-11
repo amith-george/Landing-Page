@@ -129,8 +129,13 @@ ul,a{
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     gap: 70px;
+}
+
+.boxes p{
+    font-size: 20px;
 }
 
 
@@ -150,7 +155,7 @@ ul,a{
     font-style: italic;
     font-weight:lighter;
     color: #1F2937;
-    padding: 300px 200px;
+    padding: 150px 200px;
 }
 
 .quote .content .author {
@@ -187,7 +192,6 @@ ul,a{
 
 .sign .box button {
     background-color: #3882F6;
-    border: 3px solid black;
     padding: 5px 30px;
     border-radius: 10px;
     color: black;
