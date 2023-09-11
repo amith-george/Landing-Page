@@ -95,15 +95,23 @@ ul,a{
 
 .header button {
     background-color: #3882F6;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 8px;
     margin-top: 10px;
+    color: #E5E7EB;
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 
 /* Information */
 
-
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 70px;
+}
 
 
 .info .container {
@@ -126,8 +134,65 @@ ul,a{
 }
 
 
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .content {
+    font-size: 30px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+    padding: 300px 200px;
+}
+
+.quote .content .author {
+    margin-left: 1100px;
+}
 
 
+/* Sign Up */
+
+.sign h2{
+    font-weight: bold;
+}
+
+.sign {
+    height: 300px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+.sign .box {
+    background-color: #3882F6;
+    padding: 30px 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.sign .box button {
+    background-color: #3882F6;
+    border: 3px solid black;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
 
 
 
